@@ -28,7 +28,7 @@ app.use('/api/v2', Paymentrouter);
 
 // Default route
 app.use('/', (req, res) => {
-  res.send(`<h2>Welcome to the API</h2>`);
+  res.send(`<h2>Welcome to the API Of Rughouzz</h2>`);
 });
 
 // Error handling middleware
